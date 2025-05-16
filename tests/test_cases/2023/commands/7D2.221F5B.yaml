@@ -1,0 +1,12 @@
+command_id: 7D2.221F5B
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7DA04621F5B58
+  expected_values:
+    TOYOTA_HVBAT_SOC: 34.5098
+    TOYOTA_SOC: 34.5098
+- response: 7DA04621F5BA1
+  expected_values:
+    TOYOTA_HVBAT_SOC: 63.13725
+    TOYOTA_SOC: 63.13725
