@@ -11,6 +11,6 @@ test_cases:
 - response: 7C8056210220300
   expected_values:
     TOYOTA_FLV: 7.68
-- response: 7C805621022081A
+- response: 7C8056210220A16
   expected_values:
-    TOYOTA_FLV: 20.74
+    TOYOTA_FLV: 25.82
