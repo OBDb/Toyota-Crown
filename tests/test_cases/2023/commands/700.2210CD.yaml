@@ -1,0 +1,16 @@
+command_id: 700.2210CD
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 708056210CD8B72
+  expected_values:
+    TOYOTA_LFPS: 100
+- response: 708056210CD8F01
+  expected_values:
+    TOYOTA_LFPS: 100
+- response: 708056210CD94FF
+  expected_values:
+    TOYOTA_LFPS: 100
+- response: 708056210CD9706
+  expected_values:
+    TOYOTA_LFPS: 100

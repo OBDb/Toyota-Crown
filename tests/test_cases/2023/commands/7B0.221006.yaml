@@ -2,9 +2,9 @@ command_id: 7B0.221006
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7B8056210068400
+- response: 7B8056210067300
   expected_values:
-    TOYOTA_MASTER_CYL_TEMP: 52
-- response: 7B8056210069000
+    TOYOTA_MASTER_CYL_TEMP: 35
+- response: 7B8056210069100
   expected_values:
-    TOYOTA_MASTER_CYL_TEMP: 64
+    TOYOTA_MASTER_CYL_TEMP: 65
