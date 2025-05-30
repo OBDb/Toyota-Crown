@@ -1,0 +1,7 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- response: |-
+    7B81009614700FE8080
+    7B82100000800000000
+  expected_values:
+    TOYOTA_STEER_ANGLE_V2: -1000
