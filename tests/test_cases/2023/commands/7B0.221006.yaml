@@ -1,0 +1,8 @@
+command_id: 7B0.221006
+test_cases:
+- expected_values:
+    TOYOTA_MASTER_CYL_TEMP: 35
+  response: 7B8056210067300
+- expected_values:
+    TOYOTA_MASTER_CYL_TEMP: 77
+  response: 7B8056210069D00

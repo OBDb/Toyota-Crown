@@ -1,0 +1,22 @@
+command_id: 7D2.22106C|fc=1
+test_cases:
+- expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 37.5
+    TOYOTA_HVBAT_SOC_MIN: 33
+  response: 7DA0662106C434B42
+- expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 59
+    TOYOTA_HVBAT_SOC_MIN: 28
+  response: 7DA0662106C767638
+- expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 73.5
+    TOYOTA_HVBAT_SOC_MIN: 51.5
+  response: 7DA0662106C7F9367
+- expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 67.5
+    TOYOTA_HVBAT_SOC_MIN: 66
+  response: 7DA0662106C878784
+- expected_values:
+    TOYOTA_HVBAT_SOC_MAX: 73
+    TOYOTA_HVBAT_SOC_MIN: 37
+  response: 7DA0662106C92924A
