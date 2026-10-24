@@ -1,0 +1,11 @@
+command_id: 700.708.221018
+test_cases:
+- expected_values:
+    CROWN_INJECTOR_PORT: 0
+  response: '708056210180000'
+- expected_values:
+    CROWN_INJECTOR_PORT: 5.107
+  response: 7080562101813F3
+- expected_values:
+    CROWN_INJECTOR_PORT: 11.103
+  response: 708056210182B5F

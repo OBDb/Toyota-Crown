@@ -1,0 +1,18 @@
+command_id: 7D2.7DA.221802
+test_cases:
+- expected_values:
+    CROWN_AUXILIARY_BAT: -12500
+    CROWN_BAT_1_FAN: 0
+  response: 7DA0762180200000000
+- expected_values:
+    CROWN_AUXILIARY_BAT: -12486.51484
+    CROWN_BAT_1_FAN: 82
+  response: 7DA076218024606A403
+- expected_values:
+    CROWN_AUXILIARY_BAT: -12480.35019
+    CROWN_BAT_1_FAN: 38.5
+  response: 7DA0762180266084D01
+- expected_values:
+    CROWN_AUXILIARY_BAT: -12477.84581
+    CROWN_BAT_1_FAN: 123.5
+  response: 7DA076218027308F702

@@ -1,0 +1,14 @@
+command_id: 700.708.22108A
+test_cases:
+- expected_values:
+    CROWN_VVT_IE_DUTY_RATIO_BANK_1: -3.77532
+  response: 7080562108A7D9D
+- expected_values:
+    CROWN_VVT_IE_DUTY_RATIO_BANK_1: -0.04695
+  response: 7080562108A8000
+- expected_values:
+    CROWN_VVT_IE_DUTY_RATIO_BANK_1: 18.54
+  response: 7080562108A8BE6
+- expected_values:
+    CROWN_VVT_IE_DUTY_RATIO_BANK_1: 40.72107
+  response: 7080562108A9A19

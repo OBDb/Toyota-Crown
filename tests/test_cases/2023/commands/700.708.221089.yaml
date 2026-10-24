@@ -1,0 +1,11 @@
+command_id: 700.708.221089
+test_cases:
+- expected_values:
+    CROWN_EXHAUST_VVT_HOLD_LEARN_B1: 50.00047
+  response: '708056210892002'
+- expected_values:
+    CROWN_EXHAUST_VVT_HOLD_LEARN_B1: 51.47107
+  response: 7080562108920F3
+- expected_values:
+    CROWN_EXHAUST_VVT_HOLD_LEARN_B1: 51.5565
+  response: '708056210892101'
