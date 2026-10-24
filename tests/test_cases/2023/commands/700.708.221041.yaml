@@ -1,6 +1,14 @@
 command_id: 700.708.221041
 test_cases:
 - expected_values:
+    CROWN_ECT_IGN: 84.375
+    CROWN_ECT_INIT: 83.75
+  response: '708 05 62 10 41 C7 C6 '
+- expected_values:
+    CROWN_ECT_IGN: 84.375
+    CROWN_ECT_INIT: 85
+  response: '708 05 62 10 41 C7 C8 '
+- expected_values:
     CROWN_ECT_IGN: 35
     CROWN_ECT_INIT: 65
   response: 7080562104178A8
@@ -8,3 +16,7 @@ test_cases:
     CROWN_ECT_IGN: 35
     CROWN_ECT_INIT: 91.875
   response: 7080562104178D3
+- expected_values:
+    CROWN_ECT_IGN: 84.375
+    CROWN_ECT_INIT: 83.125
+  response: 70805621041C7C5

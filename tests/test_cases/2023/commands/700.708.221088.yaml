@@ -2,10 +2,13 @@ command_id: 700.708.221088
 test_cases:
 - expected_values:
     CROWN_EXHAUST_VVT_ANGLE_B1: 0
+  response: '708 05 62 10 88 00 00 '
+- expected_values:
+    CROWN_EXHAUST_VVT_ANGLE_B1: 0
   response: '708056210880000'
 - expected_values:
     CROWN_EXHAUST_VVT_ANGLE_B1: 29.97624
   response: 708056210880BFE
 - expected_values:
-    CROWN_EXHAUST_VVT_ANGLE_B1: 33.21797
-  response: 708056210880D4A
+    CROWN_EXHAUST_VVT_ANGLE_B1: 32.90552
+  response: 708056210880D2A

@@ -1,8 +1,11 @@
 command_id: 7D2.7DA.221002
 test_cases:
 - expected_values:
-    CROWN_AUX_BAT_V: 12.6148
-  response: 7DA056210022864
+    CROWN_AUX_BAT_V: 13.51272
+  response: "221002\n7DA 05 62 10 02 2B 44 "
+- expected_values:
+    CROWN_AUX_BAT_V: 12.56112
+  response: 7DA056210022838
 - expected_values:
     CROWN_AUX_BAT_V: 12.80024
   response: 7DA0562100228FC
@@ -10,5 +13,5 @@ test_cases:
     CROWN_AUX_BAT_V: 12.80512
   response: 7DA056210022900
 - expected_values:
-    CROWN_AUX_BAT_V: 14.09832
-  response: 7DA056210022D24
+    CROWN_AUX_BAT_V: 14.05928
+  response: 7DA056210022D04

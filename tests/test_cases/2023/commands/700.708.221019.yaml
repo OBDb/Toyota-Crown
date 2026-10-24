@@ -8,7 +8,16 @@ test_cases:
   response: '7080762101902218000'
 - expected_values:
     CROWN_INJECTION: BOTH
+  response: 7080762101902BB8000
+- expected_values:
+    CROWN_INJECTION: BOTH
   response: 7080762101902BC8000
+- expected_values:
+    CROWN_INJECTION: BOTH
+  response: 7080762101902CA8000
+- expected_values:
+    CROWN_INJECTION: BOTH
+  response: 7080762101902DC8000
 - expected_values:
     CROWN_INJECTION: BOTH
   response: '7080762101902E88000'

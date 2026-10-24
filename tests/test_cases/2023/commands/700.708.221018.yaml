@@ -4,8 +4,8 @@ test_cases:
     CROWN_INJECTOR_PORT: 0
   response: '708056210180000'
 - expected_values:
-    CROWN_INJECTOR_PORT: 5.107
-  response: 7080562101813F3
+    CROWN_INJECTOR_PORT: 2.814
+  response: 708056210180AFE
 - expected_values:
     CROWN_INJECTOR_PORT: 11.103
   response: 708056210182B5F

@@ -1,26 +1,11 @@
 command_id: 700.708.221F46
 test_cases:
 - expected_values:
+    CROWN_AMBIENT_T: 42
+  response: '708 04 62 1F 46 52 '
+- expected_values:
     CROWN_AMBIENT_T: 35
   response: 70804621F464B
 - expected_values:
-    CROWN_AMBIENT_T: 36
-  response: 70804621F464C
-- expected_values:
-    CROWN_AMBIENT_T: 37
-  response: 70804621F464D
-- expected_values:
-    CROWN_AMBIENT_T: 38
-  response: 70804621F464E
-- expected_values:
-    CROWN_AMBIENT_T: 39
-  response: 70804621F464F
-- expected_values:
-    CROWN_AMBIENT_T: 40
-  response: 70804621F4650
-- expected_values:
-    CROWN_AMBIENT_T: 41
-  response: 70804621F4651
-- expected_values:
-    CROWN_AMBIENT_T: 42
-  response: 70804621F4652
+    CROWN_AMBIENT_T: 45
+  response: 70804621F4655

@@ -1,6 +1,12 @@
 command_id: 700.708.221002
 test_cases:
 - expected_values:
+    CROWN_12V_V: 13.52536
+  response: '708 05 62 10 02 2B 48 '
+- expected_values:
+    CROWN_12V_V: 14.21871
+  response: '708 05 62 10 02 2D 80 '
+- expected_values:
     CROWN_12V_V: 12.53903
   response: '708056210022820'
 - expected_values:
@@ -10,5 +16,5 @@ test_cases:
     CROWN_12V_V: 12.81247
   response: '708056210022900'
 - expected_values:
-    CROWN_12V_V: 14.12594
-  response: 708056210022D34
+    CROWN_12V_V: 14.41403
+  response: '708056210022E20'
