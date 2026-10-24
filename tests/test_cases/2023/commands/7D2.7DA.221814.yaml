@@ -1,0 +1,58 @@
+command_id: 7D2.7DA.221814
+test_cases:
+- expected_values:
+    CROWN_BAT_T_1: 88.43281
+    CROWN_BAT_T_2: 89.6
+    CROWN_BAT_T_3: 89.00587
+  response: |-
+    7DA100962181451D952
+    7DA210F522B00000000
+- expected_values:
+    CROWN_BAT_T_1: 88.62849
+    CROWN_BAT_T_2: 89.6
+    CROWN_BAT_T_3: 89.18758
+  response: |-
+    7DA100962181451F552
+    7DA212B524500000000
+- expected_values:
+    CROWN_BAT_T_1: 90.32673
+    CROWN_BAT_T_2: 91.4
+    CROWN_BAT_T_3: 90.70411
+  response: |-
+    7DA100962181452E853
+    7DA211E531E00000000
+- expected_values:
+    CROWN_BAT_T_1: 90.70411
+    CROWN_BAT_T_2: 91.4
+    CROWN_BAT_T_3: 91.0815
+  response: |-
+    7DA1009621814531E53
+    7DA2170535400000000
+- expected_values:
+    CROWN_BAT_T_1: 90.88582
+    CROWN_BAT_T_2: 91.4
+    CROWN_BAT_T_3: 91.27718
+  response: |-
+    7DA1009621814533853
+    7DA218C537000000000
+- expected_values:
+    CROWN_BAT_T_1: 93.13616
+    CROWN_BAT_T_2: 93.2
+    CROWN_BAT_T_3: 93.3528
+  response: |-
+    7DA1009621814547A54
+    7DA21F3549900000000
+- expected_values:
+    CROWN_BAT_T_1: 95.86172
+    CROWN_BAT_T_2: 98.6
+    CROWN_BAT_T_3: 96.48371
+  response: |-
+    7DA1009621814560057
+    7DA210C565900000000
+- expected_values:
+    CROWN_BAT_T_1: 96.26706
+    CROWN_BAT_T_2: 98.6
+    CROWN_BAT_T_3: 96.89604
+  response: |-
+    7DA1009621814563A57
+    7DA212B569400000000

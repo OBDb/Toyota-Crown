@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221039
+test_cases:
+- expected_values:
+    CROWN_FRONT_REAR_MOTOR_TQ: -29.402
+  response: 7DA0762103921BC0D26
+- expected_values:
+    CROWN_FRONT_REAR_MOTOR_TQ: -29.415
+  response: 7DA0762103921C90D19
+- expected_values:
+    CROWN_FRONT_REAR_MOTOR_TQ: -29.333
+  response: 7DA0762103921DE0D6B
+- expected_values:
+    CROWN_FRONT_REAR_MOTOR_TQ: -29.388
+  response: 7DA0762103921EC0D34

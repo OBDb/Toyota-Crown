@@ -1,0 +1,17 @@
+command_id: 7D2.7DA.221040
+test_cases:
+- expected_values:
+    CROWN_TRANSAXLE_OIL_T: 56
+  response: 7DA06621040A43060
+- expected_values:
+    CROWN_TRANSAXLE_OIL_T: 55
+  response: 7DA06621040A5F05F
+- expected_values:
+    CROWN_TRANSAXLE_OIL_T: 54
+  response: 7DA06621040A6005E
+- expected_values:
+    CROWN_TRANSAXLE_OIL_T: 38
+  response: 7DA06621040BA004E
+- expected_values:
+    CROWN_TRANSAXLE_OIL_T: 37
+  response: 7DA06621040BA504D

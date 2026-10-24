@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.221112
+test_cases:
+- expected_values:
+    CROWN_INVERTER_WATER_PMP: 47.86443
+  response: 7DA056211123D44
+- expected_values:
+    CROWN_INVERTER_WATER_PMP: 48.29168
+  response: 7DA056211123DD0
