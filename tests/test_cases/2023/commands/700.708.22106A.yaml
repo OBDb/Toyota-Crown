@@ -2,6 +2,9 @@ command_id: 700.708.22106A
 test_cases:
 - expected_values:
     CROWN_FUEL_PUMP_DUTY_RATIO: 30
+  response: '708 05 62 10 6A 01 EC '
+- expected_values:
+    CROWN_FUEL_PUMP_DUTY_RATIO: 30
   response: 7080562106A01EC
 - expected_values:
     CROWN_FUEL_PUMP_DUTY_RATIO: 217.86585
@@ -9,3 +12,6 @@ test_cases:
 - expected_values:
     CROWN_FUEL_PUMP_DUTY_RATIO: 218.96341
   response: 7080562106A0E07
+- expected_values:
+    CROWN_FUEL_PUMP_DUTY_RATIO: 238.29268
+  response: 7080562106A0F44

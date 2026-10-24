@@ -1,6 +1,9 @@
 command_id: 7D2.7DA.220102
 test_cases:
 - expected_values:
+    CROWN_KEY_CYCLE: 9306
+  response: "7DA 10 0A 62 01 02 24 5A 00 \n7DA 21 0F F3 E7 01 00 00 00 "
+- expected_values:
     CROWN_KEY_CYCLE: 9304
   response: |-
     7DA100A620102245800
@@ -29,9 +32,14 @@ test_cases:
     CROWN_KEY_CYCLE: 9304
   response: |-
     7DA100A620102245800
-    7DA211D6FBE01000000
-- expected_values:
-    CROWN_KEY_CYCLE: 9304
-  response: |-
-    7DA100A620102245800
     7DA211E604101000000
+- expected_values:
+    CROWN_KEY_CYCLE: 9305
+  response: |-
+    7DA100A620102245900
+    7DA210BDFDF01000000
+- expected_values:
+    CROWN_KEY_CYCLE: 9306
+  response: |-
+    7DA100A620102245A00
+    7DA2111224D01000000

@@ -1,11 +1,14 @@
 command_id: 700.708.22108F
 test_cases:
 - expected_values:
+    CROWN_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.90036
+  response: '708 05 62 10 8F 25 29 '
+- expected_values:
     CROWN_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.39254
   response: 7080562108F24F5
 - expected_values:
     CROWN_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.41208
   response: 7080562108F24F7
 - expected_values:
-    CROWN_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.93942
-  response: 7080562108F252D
+    CROWN_EXHAUST_VVT_OVER_ADV_LEARN_B1: 92.90036
+  response: 7080562108F2529

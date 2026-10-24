@@ -2,4 +2,13 @@ command_id: 7D2.7DA.22107E
 test_cases:
 - expected_values:
     CROWN_12V_BAT_V_BEFORE_SMR: 11.2927
+  response: "22107E\n7DA 05 62 10 7E 23 F0 "
+- expected_values:
+    CROWN_12V_BAT_V_BEFORE_SMR: 11.2927
   response: 7DA0562107E23C0
+- expected_values:
+    CROWN_12V_BAT_V_BEFORE_SMR: 11.2927
+  response: 7DA0562107E23F0
+- expected_values:
+    CROWN_12V_BAT_V_BEFORE_SMR: 11.29392
+  response: 7DA0562107E2450

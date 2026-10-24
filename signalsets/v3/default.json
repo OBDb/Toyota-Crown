@@ -264,7 +264,7 @@
   "signals": [
     {"id": "CROWN_DARK_CURRENT_BAT", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Dark current of battery"}
   ]},
-{ "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "15E8"}, "freq": 30,
+{ "hdr": "700", "rax": "708", "cmd": {"22": "15E8"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "CROWN_CHG_INTEGRATED",           "path": "Battery", "fmt": {           "len": 32, "max": 429496729.5,              "div": 10,              "unit": "ampereHours" }, "name": "Charging integrated current of aux. battery"},
     {"id": "CROWN_DISCHARGING",              "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 429496729.5,              "div": 10,              "unit": "ampereHours" }, "name": "Discharging integrated current of aux. battery"},
