@@ -1,11 +1,14 @@
 command_id: 7D2.220103|fc=1
 test_cases:
 - expected_values:
-    CROWN_ODO_V2_V2: 68903
+    CROWN_ODO_V2_V2_RAW: 68903
+    CROWN_ODO_V2_V2_UNIT: KM
   response: 7DA0762010301010D27
 - expected_values:
-    CROWN_ODO_V2_V2: 69114
+    CROWN_ODO_V2_V2_RAW: 69114
+    CROWN_ODO_V2_V2_UNIT: KM
   response: 7DA0762010301010DFA
 - expected_values:
-    CROWN_ODO_V2_V2: 75914
+    CROWN_ODO_V2_V2_RAW: 75914
+    CROWN_ODO_V2_V2_UNIT: KM
   response: 7DA076201030101288A

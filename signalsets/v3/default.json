@@ -11,7 +11,12 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "0103"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "CROWN_ENG_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "CROWN_ENG_ODO_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "CROWN_ENG_ODO_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1002"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -105,7 +110,7 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "107B"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "CROWN_EOT", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "CROWN_EOT", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature", "suggestedMetric": "intakeAirTemperature"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1084"}, "freq": 1,
   "signals": [
@@ -398,7 +403,12 @@
   ]},
 { "hdr": "701", "rax": "709", "cmd": {"22": "0103"}, "freq": 10, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "CROWN_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "CROWN_ODO_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "CROWN_ODO_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "701", "rax": "709", "dbg": true, "cmd": {"22": "1614"}, "freq": 0.25,
   "signals": [
@@ -786,7 +796,12 @@
   ]},
 { "hdr": "7D2", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "CROWN_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "CROWN_ODO_V2_V2_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "CROWN_ODO_V2_V2_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "7D2", "cmd": {"22": "1075"}, "freq": 0.1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -1437,5 +1452,16 @@
     {"id": "CROWN_HVBAT_BLOCK_13_R",      "path": "Battery", "fmt": {"bix": 216, "len": 8,  "max": 255,                                                "unit": "milliohms" }, "name": "HV battery block 13 internal resistance"},
     {"id": "CROWN_HVBAT_BLOCK_14_R",      "path": "Battery", "fmt": {"bix": 224, "len": 8,  "max": 255,                                                "unit": "milliohms" }, "name": "HV battery block 14 internal resistance"}
   ]}
+],
+"synthetics": [
+  { "id": "CROWN_ENG_ODO", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "CROWN_ENG_ODO_RAW", "key": "CROWN_ENG_ODO_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }},
+  { "id": "CROWN_ODO", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "CROWN_ODO_RAW", "key": "CROWN_ODO_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }},
+  { "id": "CROWN_ODO_V2_V2", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "CROWN_ODO_V2_V2_RAW", "key": "CROWN_ODO_V2_V2_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }}
 ]
 }
